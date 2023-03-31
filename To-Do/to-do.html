@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>Productivity App - To-Do List</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../CSS/to-do.css" />
   </head>
   <body>
     <header>
-      <h1>Productivity App</h1>
+      <h1 class="logo">Productivity<font>App</font></h1>
       <nav>
         <ul>
           <li><a href="../Home/index.html">Home</a></li>
@@ -18,25 +18,15 @@
     </header>
     <main>
       <h2>To-Do List</h2>
-      <form>
-        <input type="text" id="new-task" placeholder="Enter a new task..." />
-        <button type="button" onclick="addTask()">Add Task</button>
-      </form>
-      <ul id="task-list">
-        <li>
-          <input type="checkbox" id="task1" onchange="completeTask(this)" />
-          <label for="task1">Task 1</label>
-        </li>
-        <li>
-          <input type="checkbox" id="task2" onchange="completeTask(this)" />
-          <label for="task2">Task 2</label>
-        </li>
-        <li>
-          <input type="checkbox" id="task3" onchange="completeTask(this)" />
-          <label for="task3">Task 3</label>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="form">
+          <input type="text" class="input" />
+          <input type="submit" class="add" value="Add Task" />
+        </div>
+        <div class="tasks"></div>
+        <div class="delete-all">Delete all</div>
+      </div>
     </main>
-    <script src="js/todo.js"></script>
+    <script src="../To-Do/to-do.js"></script>
   </body>
 </html>

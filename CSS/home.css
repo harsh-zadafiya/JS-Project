@@ -1,5 +1,4 @@
 body {
-    height: 125vh;
     background-image: url('../img/background.jpg');
     background-size: cover;
     font-family: sans-serif;
@@ -56,9 +55,6 @@ header li a.active {
     color: #ADA095;
   }
 
-
-
-  /* -------------------------- */
   .container {
     display: flex;
     flex-direction: column;
