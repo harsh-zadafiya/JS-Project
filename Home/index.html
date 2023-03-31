@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>Productivity App</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../CSS/home.css" />
   </head>
   <body>
     <header>
-      <h1>Productivity App</h1>
+      <h1 class="logo">Calculate<font>App</font></h1>
       <nav>
         <ul>
           <li><a href="../To-Do/to-do.html">To-Do List</a></li>
@@ -17,11 +17,16 @@
       </nav>
     </header>
     <main>
-      <p>
-        Welcome to the Productivity App. This app is designed to help you
-        organize your life and increase your productivity. Use the navigation
-        menu above to access the different features of the app.
-      </p>
+      <div class="container">
+        <h1>Hello, <span id="greet"></span>!</h1>
+        <fieldset>
+          <legend>Clock</legend>
+          <span id="hours">&nbsp;</span> <span id="minutes">&nbsp;</span>
+          <span id="seconds">&nbsp;</span>&nbsp;
+          <span id="ampm">&nbsp;</span>
+        </fieldset>
+      </div>
     </main>
+    <script src="../Home/home.js"></script>
   </body>
 </html>
