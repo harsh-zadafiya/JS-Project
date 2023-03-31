@@ -17,12 +17,3 @@ function addTask() {
     newTask.value = "";
   }
 }
-
-function completeTask(checkbox) {
-  let listItem = checkbox.parentNode;
-  if (checkbox.checked) {
-    listItem.classList.add("completed");
-  } else {
-    listItem.classList.remove("completed");
-  }
-}

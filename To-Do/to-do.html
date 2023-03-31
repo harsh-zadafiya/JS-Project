@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Productivity App - To-Do List</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
       <h1>Productivity App</h1>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-          <li><a href="contacts.html">Contacts</a></li>
+          <li><a href="../Home/index.html">Home</a></li>
+          <li><a href="../Word Counter/wordCounter.html">Word Counter</a></li>
+          <li><a href="../ContactUs/contactUs.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <h2>To-Do List</h2>
       <form>
-        <input type="text" id="new-task" placeholder="Enter a new task...">
+        <input type="text" id="new-task" placeholder="Enter a new task..." />
         <button type="button" onclick="addTask()">Add Task</button>
       </form>
       <ul id="task-list">
         <li>
-          <input type="checkbox" id="task1" onchange="completeTask(this)">
+          <input type="checkbox" id="task1" onchange="completeTask(this)" />
           <label for="task1">Task 1</label>
         </li>
         <li>
-          <input type="checkbox" id="task2" onchange="completeTask(this)">
+          <input type="checkbox" id="task2" onchange="completeTask(this)" />
           <label for="task2">Task 2</label>
         </li>
         <li>
-          <input type="checkbox" id="task3" onchange="completeTask(this)">
+          <input type="checkbox" id="task3" onchange="completeTask(this)" />
           <label for="task3">Task 3</label>
         </li>
       </ul>
