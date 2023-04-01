@@ -1,3 +1,4 @@
+"use strict";
 let inputTask = document.querySelector(".input");
 let addTask = document.querySelector(".add");
 let taskLabel = document.querySelector(".tasks");

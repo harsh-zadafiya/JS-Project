@@ -1,3 +1,5 @@
+// My Project is also push in my github account if you want to see my work progress so it's link is here : https://github.com/harsh-zadafiya/JS-Project
+
 "use strict";
 const $ = (selector) => document.querySelector(selector);
 
