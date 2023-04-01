@@ -91,3 +91,17 @@ header li a.active {
   #ampm {
     font-size: 36px;
   }
+  footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+    background: #fff;
+ }
+ small{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+ }
